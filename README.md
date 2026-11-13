@@ -1,10 +1,10 @@
 # Lighthouse report
 
-Generated 2026-11-13 07:59 UTC from commit `703cf27`.
+Generated 2026-11-13 16:26 UTC from commit `29bb8e5`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
-| /index.html | 🟢 100 | 🟢 94 | 🟢 96 | 🟢 90 |
+| /index.html | 🟢 98 | 🟢 95 | 🟢 96 | 🟢 90 |
 
 🟢 90–100 good · 🟠 50–89 needs improvement · 🔴 0–49 poor
 
@@ -12,9 +12,10 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 
 ## /index.html
 
+- **Max Potential First Input Delay** (160 ms)
 - **Browser errors were logged to the console**
 - **Touch targets do not have sufficient size or spacing.**
-- **Eliminate render-blocking resources** (Est savings of 150 ms)
+- **Eliminate render-blocking resources** (Est savings of 0 ms)
 - **Document does not have a meta description**
 - **Network dependency tree**
 - **Render blocking requests**
