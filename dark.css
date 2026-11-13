@@ -1,0 +1,33 @@
+:root {
+  --neutral-bg: hsl(0, 0%, 9%);
+  --neutral-text: hsl(0, 0%, 98%);
+
+  --primary-title: hsl(32, 37%, 92%);
+  --primary-sheading: hsl(32, 35%, 83%);
+
+  --accent: hsl(212, 29%, 84%);
+  --accent-hover: hsl(212, 29%, 74%);
+}
+
+body {
+  background-color: var(--neutral-bg);
+  color: var(--neutral-text);
+}
+
+h1 {
+  color: var(--primary-title);
+}
+
+h2,
+h3,
+h4 {
+  color: var(--primary-sheading);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
