@@ -1,10 +1,10 @@
 # Lighthouse report
 
-Generated 2026-11-13 16:26 UTC from commit `29bb8e5`.
+Generated 2026-11-26 20:23 UTC from commit `cfb5a82`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
-| /index.html | 🟢 98 | 🟢 95 | 🟢 96 | 🟢 90 |
+| /index.html | 🟠 80 | 🟠 88 | 🟢 96 | 🟠 82 |
 
 🟢 90–100 good · 🟠 50–89 needs improvement · 🔴 0–49 poor
 
@@ -12,10 +12,18 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 
 ## /index.html
 
-- **Max Potential First Input Delay** (160 ms)
+- **First Contentful Paint** (2.3 s)
+- **Cumulative Layout Shift** (0.289)
 - **Browser errors were logged to the console**
-- **Touch targets do not have sufficient size or spacing.**
-- **Eliminate render-blocking resources** (Est savings of 0 ms)
+- **Avoid large layout shifts** (2 layout shifts found)
+- **Image elements do not have explicit `width` and `height`**
+- **Image elements do not have `[alt]` attributes**
+- **Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).**
+- **Serve static assets with an efficient cache policy** (2 resources found)
+- **Eliminate render-blocking resources** (Est savings of 1,520 ms)
 - **Document does not have a meta description**
+- **Use efficient cache lifetimes** (Est savings of 0 KiB)
+- **Layout shift culprits**
+- **LCP request discovery**
 - **Network dependency tree**
 - **Render blocking requests**
