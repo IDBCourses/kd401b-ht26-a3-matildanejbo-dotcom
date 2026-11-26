@@ -1,0 +1,61 @@
+:root {
+  --color-text: hsl(270 30% 15%);
+
+  --font-body: "Jost", sans-serif;
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --heading-weight: 700;
+  --body-weight: 400;
+  --size-h1: 3.797rem;
+  --size-h2: 2.531rem;
+  --size-h3: 1.688rem;
+  /* --size-h4: 1.3rem; */
+  --size-body: 1.125rem;
+  --size-small: 0.9rem;
+  --leading-body: 1.5;
+  --leading-heading: 1.5;
+  --measure: 65ch;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h1);
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h2);
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h3);
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+}
+
+h4 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h3); /* h4 problem */
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+}
+
+p {
+  max-width: var(--measure);
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--body-weight);
+  font-size: var(--size-p);
+  line-height: var(--leading-body);
+  letter-spacing: 0em;
+}

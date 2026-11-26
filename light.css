@@ -7,21 +7,29 @@
 
   --accent: hsl(215, 28%, 27%);
   --accent-hover: hsl(215, 28%, 17%);
-}
 
-body {
-  background-color: var(--neutral-bg);
-  color: var(--neutral-text);
+  --color-text: hsl(270 30% 15%);
 }
 
 h1 {
   color: var(--primary-title);
 }
 
-h2,
-h3,
+h2 {
+  color: var(--primary-sheading);
+}
+
+h3 {
+  color: var(--primary-sheading);
+}
+
 h4 {
   color: var(--primary-sheading);
+}
+
+body {
+  background-color: var(--neutral-bg);
+  color: var(--neutral-text);
 }
 
 a {

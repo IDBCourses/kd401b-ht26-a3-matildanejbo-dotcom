@@ -1,0 +1,78 @@
+:root {
+  --font-body: "Atkinson Hyperlegible", sans-serif;
+  --font-heading: "Atkinson Hyperlegible", Georgia, serif;
+  --font-variation-settings: "GRAD" 50;
+  --font-strech: 120% --heading-weight: 700;
+  --body-weight: 400;
+  --size-h1: 2.665rem;
+  --size-h2: 1.999rem;
+  --size-h3: 1.5rem;
+  --size-h4: 1.3rem;
+  --size-body: 1.125rem; /* body was here before */
+  --size-small: 0.9rem;
+  --leading-body: 1.8;
+  --leading-heading: 1.8;
+  --tracking-body: 0.02em;
+  --measure: 55ch;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h1);
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+
+  font-weight: var(--heading-weight);
+  font-stretch: var(--font-strech);
+  font-variation-settings: var(--font-variation-settings);
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h2);
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+
+  font-weight: var(--heading-weight);
+  font-stretch: var(--font-strech);
+  font-variation-settings: var(--font-variation-settings);
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h3);
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+
+  font-weight: var(--heading-weight);
+  font-stretch: var(--font-strech);
+  font-variation-settings: var(--font-variation-settings);
+}
+
+h4 {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-weight);
+  font-size: var(--size-h3); /* h4 problem */
+  line-height: var(--leading-heading);
+  letter-spacing: 0em;
+
+  font-weight: var(--heading-weight);
+  font-stretch: var(--font-strech);
+  font-variation-settings: var(--font-variation-settings);
+}
+
+p {
+  font-family: var(--font-body);
+  font-weight: var(--body-weight);
+  font-size: var(--size-p);
+  line-height: var(--leading-body);
+  letter-spacing: 0em;
+  max-width: var(--measure);
+}
+
+body {
+  font-family: var(--font-body);
+}
