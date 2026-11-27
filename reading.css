@@ -18,7 +18,6 @@
 
 h1 {
   font-family: var(--font-heading);
-  /* font-weight: var(--heading-weight); */
   font-size: var(--size-h1);
   line-height: var(--leading-heading);
   letter-spacing: 0em;
@@ -30,7 +29,6 @@ h1 {
 
 h2 {
   font-family: var(--font-heading);
-  /* font-weight: var(--heading-weight); */
   font-size: var(--size-h2);
   line-height: var(--leading-heading);
   letter-spacing: 0em;
