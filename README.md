@@ -1,6 +1,6 @@
 # Lighthouse report
 
-Generated 2026-11-27 13:41 UTC from commit `2d2b06a`.
+Generated 2026-11-27 13:51 UTC from commit `96be121`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
@@ -16,7 +16,7 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 - **Browser errors were logged to the console**
 - **Image elements do not have explicit `width` and `height`**
 - **Serve static assets with an efficient cache policy** (2 resources found)
-- **Eliminate render-blocking resources** (Est savings of 1,390 ms)
+- **Eliminate render-blocking resources** (Est savings of 1,350 ms)
 - **Document does not have a meta description**
 - **Use efficient cache lifetimes** (Est savings of 0 KiB)
 - **LCP request discovery**
