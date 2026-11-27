@@ -1,4 +1,4 @@
-const link = document.querySelector("#palette");
+const link = document.querySelector("#colour");
 const button = document.querySelector("#theme");
 const link2 = document.querySelector("#type");
 const button2 = document.querySelector("#reading");
@@ -10,5 +10,5 @@ button.addEventListener("click", function () {
 
 button2.addEventListener("click", function () {
   const type = link2.getAttribute("href") === "reading.css";
-  link2.setAttribute("href", type ? "" : "reading.css");
+  link2.setAttribute("href", type ? "." : "reading.css");
 });
