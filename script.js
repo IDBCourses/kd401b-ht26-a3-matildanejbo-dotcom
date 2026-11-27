@@ -9,7 +9,6 @@ button.addEventListener("click", function () {
 });
 
 button2.addEventListener("click", function () {
-  const type = link.getAttribute("href") === "reading.css";
-  link.setAttribute("href", type ? "light.css" : "reading.css");
-  link2.setAttribute("href", type ? "light.css" : "reading.css");
+  const type = link2.getAttribute("href") === "reading.css";
+  link2.setAttribute("href", type ? "" : "reading.css");
 });
