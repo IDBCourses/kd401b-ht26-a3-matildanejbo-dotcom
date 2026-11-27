@@ -2,7 +2,7 @@
   --font-body: "Atkinson Hyperlegible", sans-serif;
   --font-heading: "Atkinson Hyperlegible", Georgia, serif;
   --font-variation-settings: "GRAD" 50;
-  --font-strech: 120% --heading-weight: 700;
+  --font-strech: 120%;
   --body-weight: 400;
   --size-h1: 2.665rem;
   --size-h2: 1.999rem;
@@ -18,7 +18,7 @@
 
 h1 {
   font-family: var(--font-heading);
-  font-weight: var(--heading-weight);
+  /* font-weight: var(--heading-weight); */
   font-size: var(--size-h1);
   line-height: var(--leading-heading);
   letter-spacing: 0em;
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-family: var(--font-heading);
-  font-weight: var(--heading-weight);
+  /* font-weight: var(--heading-weight); */
   font-size: var(--size-h2);
   line-height: var(--leading-heading);
   letter-spacing: 0em;
@@ -42,7 +42,7 @@ h2 {
 
 h3 {
   font-family: var(--font-heading);
-  font-weight: var(--heading-weight);
+  /* font-weight: var(--heading-weight); */
   font-size: var(--size-h3);
   line-height: var(--leading-heading);
   letter-spacing: 0em;
@@ -54,7 +54,7 @@ h3 {
 
 h4 {
   font-family: var(--font-heading);
-  font-weight: var(--heading-weight);
+  /* font-weight: var(--heading-weight); */
   font-size: var(--size-h3); /* h4 problem */
   line-height: var(--leading-heading);
   letter-spacing: 0em;
